@@ -54,24 +54,63 @@ a:hover {
     transition: all 200ms ease-out 0s;
 }
 
+.description {
+  font-size: 2rem;
+  line-height: 1.1em;
+  margin-top: 1rem;
+}
 
 .description a,
-a.site-link {
+  a.site-link {
   border-bottom: 1px solid #000;
 }
 
-.description a:hover,
+.site-link:hover,
 a.site-link:hover {
-    border-width: 0;
+    border-color: transparent;
     color: #f3cec2;
 }
 
 .site-link {
-  padding-top: 0.75rem;
   display: inline-block;
+    cursor: pointer;
+    background: none;
+    padding: 0.3rem 0.7rem 0.2rem 0.7rem;
+    border-radius: 20px;
+    border: 1px solid #555;
+    font-size: 0.75rem;
 }
 
-button, .button {
+.site-link:hover,
+.site-link:focus {
+    outline: 0;
+    border-color: #ddd;
+    color: #555;
+    box-shadow: 0 0 5px rgba(243,181,181,0.6);
+    text-shadow: 0 0 0px rgba(243,181,181,0.0);
+    transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -webkit-transition: all 200ms ease-out 0s;
+    -moz-transition: all 200ms ease-out 0s;
+    -o-transition: all 200ms ease-out 0s;
+    transition: all 200ms ease-out 0s;
+}
+
+
+/*.project .button {
+    display: inline-block;
+    position: relative;
+    bottom: 2px;
+}*/
+
+/*.site-link {
+  padding-top: 0.75rem;
+  display: inline-block;
+}*/
+
+/*button, .button {
     cursor: pointer;
     background: none;
     padding: 0.3rem 1rem;
@@ -91,7 +130,7 @@ button:hover, button:focus,
     color: #f3cec2;
     box-shadow: 0 0 5px rgba(243,181,181,0.6);
     text-shadow: 0 0 0px rgba(243,181,181,0.6);
-}
+}*/
 
 
 
@@ -225,16 +264,6 @@ nav ul li{
   content: "◦ ";
   color: #a6a6a6;
 }
-
-
-/*h2.description a {
-  border-bottom: 3px solid #000;
-}*/
-
-/*.description a:hover,
-.site-link:hover {
-  border: 0;
-}*/
 
 .container {
   margin-top: 3em;
