@@ -60,6 +60,10 @@ a:hover {
   margin-top: 1rem;
 }
 
+.description.small {
+  font-size: 1rem;
+}
+
 .description a,
   a.site-link {
   border-bottom: 1px solid #000;
@@ -79,6 +83,7 @@ a.site-link:hover {
     border-radius: 20px;
     border: 1px solid #555;
     font-size: 0.75rem;
+    line-height: 1.5em;
 }
 
 .site-link:hover,
@@ -98,6 +103,9 @@ a.site-link:hover {
     transition: all 200ms ease-out 0s;
 }
 
+.micro {
+  margin-bottom: 50vh;
+}
 
 /*.project .button {
     display: inline-block;
@@ -254,10 +262,13 @@ nav ul li{
   margin-bottom: 10px;
 }
 
+.about ul {
+  margin-bottom: 1rem;
+}
+
 .about li {
   display: inline-block;
-  margin-left: 0;
-  margin-right: 0.4rem;
+  margin: 0 0.4rem 0 0;
 }
 
 .about li:before {
@@ -295,6 +306,7 @@ nav ul li{
 
 .section.more-work-container p {
   font-size: 0.8rem;
+  margin-bottom: 2rem;
 }
 
 .inline-block-container {
